@@ -1,0 +1,114 @@
+ .uppernav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px;
+   
+    
+ }
+ 
+.uppernav p{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+   height: 90px;
+
+}
+
+.nav1-logo{
+    display: flex;
+   justify-content: center;
+   width: 300px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  object-fit: contain;
+
+  
+}
+
+.navbar1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Change this if you need a different background for the navbar */
+}
+
+.nav1-logo img {
+    height: 50px; /* Adjust according to your design */
+}
+
+.search-bar {
+    display: flex;
+    width: 100px;
+    height: 60%;
+    
+    align-items: center;
+    background-color: rgb(240, 229, 229); /* Gray background for the search bar */
+    border-radius: 5px; /* Rounded corners */
+    padding: 1px 1px; /* Padding inside the search bar */
+    flex-grow: 1; /* Allows the search bar to expand and take up available space */
+    margin-left: 50px; /* Space between the logo and the search bar */
+}
+
+.search-bar input {
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+    background-color: rgb(34, 32, 32); /* Match background color */
+    color: white; /* White text color */
+     flex-grow: 1; /*Take up available space */
+    padding: 19px; /* Padding inside the input */
+    width: 100px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Change cursor to indicate clickability */
+}
+
+.search-text {
+    margin-left: 2px; /* Space between the icon and the text */
+    color: rgb(39, 37, 37); /* White text color */
+}
+
+.navbar1{
+    background-color: black
+}  
+.login-icon{
+    /* background-color: white; */
+    
+    color:white;
+   
+}
+
+/* LoginSection.css */
+.login-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .icon-wrapper {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    background-color: #fff; /* White background */
+    border-radius: 50%; /* Makes the background a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  .login-text {
+    font-size: 16px;
+    color: white; /* Adjust text color as needed */
+  }
+  
