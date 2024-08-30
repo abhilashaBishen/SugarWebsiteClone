@@ -6,11 +6,14 @@ import UpperNav from './Components/UpperNav/UpperNav';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import ShopCategory from './Pages/ShopCategory';
 import Shop from './Pages/Shop';
-
+import Product from './Pages/Product';
+import Cart from './Pages/Cart';
+import LoginSignup from './Pages/LoginSignup';
 
 function App() {
   return (
     <div >
+   
       <BrowserRouter>
       <UpperNav/>
      <Navbar/>
@@ -20,12 +23,14 @@ function App() {
       <Route path = '/eyes' element ={<ShopCategory  category = "eyes"/>}/>
       <Route path = '/face' element ={<ShopCategory  category = "face"/>}/>
       <Route path = '/nails' element ={<ShopCategory  category = "nails"/>}/>
-     <Route>
+      <Route path = '/product' element = {<Product/>}/>
+      <Route path = ':productId' element = {<Product/>}/>
+    
+     <Route path = '/cart' element ={<Cart/>}/>
 
-     </Route>
-     
-     </Routes>
-     <BannerProducts/>
+     <Route path = '/login' element ={<LoginSignup/>}/>
+   </Routes>
+     <BannerProducts />
       </BrowserRouter>
     
 
